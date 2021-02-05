@@ -30,12 +30,12 @@ Desktop will prompt you to connect your AWS Account. This will create an IAM Rol
 <br />
 
 
-## What platforms do you support?
+## Supported platforms
 MacOS
 
 <br />
 
-## What resources are supported?
+## Supported AWS resources
 - Lambda
 - API Gateway
 - DynamoDB
@@ -44,7 +44,7 @@ MacOS
 
 <br />
 
-## Current limitations
+## Limitations
 - AWS only
 - The AWS Role provisioned for Desktop is currently set to Administrative permissions. This will be scoped down in the future.
 - Log streaming only supported for NodeJS runtimes
