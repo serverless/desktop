@@ -1,8 +1,8 @@
 ![](https://raw.githubusercontent.com/serverless/desktop/main/resources/readme-serverless-desktop.png)
 
-#### Serverless Desktop is GUI client that provides you with tooling to easily test and invoke your deployed Serverless projects.
+Serverless Desktop is GUI client that provides you with tooling to easily test and invoke your deployed Serverless projects.
 
-#### Download it [here](https://github.com/serverless/desktop/releases/latest).
+Download it [here](https://github.com/serverless/desktop/releases/latest).
 
 <br />
 <br />
