@@ -23,7 +23,7 @@ Download it [here](https://github.com/serverless/desktop/releases/latest).
 <br />
 
 ## How does it work?
-Desktop will list your AWS Cloudformation stacks that are deployed via the [Serverless Framework](https://github.com/serverless/serverless), and create convenient views to work with the underlying AWS resources. Cloudformation stacks created outside of the Serverless Framework, are currently not supported by Desktop.
+Desktop will list your AWS Cloudformation stacks that are deployed via the [Serverless Framework](https://github.com/serverless/serverless), and create convenient views to work with the underlying AWS resources. Cloudformation stacks created outside of the Serverless Framework are currently not supported by Desktop.
 
 Desktop will prompt you to connect your AWS Account. This will create an IAM Role in your account, that will give Desktop periodic, temporary access credentials to perform a `list` operation on your Cloudformation Stacks, and associated AWS resources. These same credentials will be used to invoke your functions, access your DynamoDB tables, S3 buckets, and work with other resources associated with your Serverless project.
 
@@ -35,19 +35,19 @@ MacOS
 
 <br />
 
-## Supported AWS resources
-- Lambda
-- API Gateway
-- DynamoDB
-- S3
-- IAM
+## Supported resources
+- AWS Lambda
+- AWS API Gateway
+- AWS DynamoDB
+- AWS S3
+- AWS IAM
 
 <br />
 
 ## Limitations
 - AWS only
-- The AWS Role provisioned for Desktop is currently set to Administrative permissions. This will be scoped down in the future.
-- Log streaming only supported for NodeJS runtimes
+- The AWS Role provisioned for Desktop is currently set to Administrative permissions. This will be scoped down in the future
+- Log streaming is only supported for NodeJS runtimes
 
 <br />
 
