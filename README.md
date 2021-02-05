@@ -52,4 +52,4 @@ MacOS
 <br />
 
 ## Feedback
-Feel free to create an [issue](https://github.com/serverless/desktop/issues/new) in this repo to report bugs, or request features.
+Feel free to create an [issue](https://github.com/serverless/desktop/issues/new) to report bugs, or request features.
