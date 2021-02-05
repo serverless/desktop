@@ -9,7 +9,7 @@
 
 ## Features
 
-_screenshot_
+![](https://raw.githubusercontent.com/serverless/desktop/main/resources/product-screenshot.png)
 
 - Real-time log and error streaming for AWS Lambda functions
 - Saved queries
