@@ -12,7 +12,7 @@ Serverless Desktop is GUI client that provides you with tooling to easily test a
 ![](https://raw.githubusercontent.com/serverless/desktop/main/resources/product-screenshot.png)
 
 - Invoke AWS Lambda functions and APIs easily
-- Stream errors and logs from AWS Lambdas functions in real-time
+- Stream errors and logs from AWS Lambda functions in real-time
 - Save and share test events and HTTP requests
 - Measure performance with duration and memory metrics
 - Explore items in AWS DynamoDB tables and AWS S3 buckets
