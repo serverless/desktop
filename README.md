@@ -27,7 +27,13 @@ Serverless Desktop will list your AWS Cloudformation stacks that are deployed vi
 
 Desktop will prompt you to connect your AWS Account. This will create an IAM Role in your account, that will give Desktop periodic, temporary access credentials to perform a `list` operation on your Cloudformation Stacks, and associated AWS resources. These same credentials will be used to invoke your functions, access your DynamoDB tables, S3 buckets, and work with other resources associated with your Serverless project.
 
-Please note that while in beta, Serverless Desktop requires an AWS IAM Role with Admin permissions for your AWS account, which it assumes to periodically perform server-side operations.  Desktop does not use long-lasting credentials.  Instead, Desktop assumes the IAM Role you provide it, creates temporary credentials via AWS STS, and uses those for each opeartion.  You control the IAM Role and can remove Desktop's access at any time.  Within the upcoming weeks, Desktop will request specific permissions, rather than Admin access.  Until then, please be aware of this behavior.
+Please note that while in beta, Serverless Desktop requires an AWS IAM Role with Admin permissions for your AWS account, which it assumes to periodically perform server-side operations. Desktop does not use long-lasting credentials. Instead, Desktop assumes the IAM Role you provide it, creates temporary credentials via AWS STS, and uses those for each opeartion. You control the IAM Role and can remove Desktop's access at any time. Within the upcoming weeks, Desktop will request specific permissions, rather than Admin access. Until then, please be aware of this behavior.
+
+Log streaming is enabled for NodeJS Lambda functions via the [AWS Lambda Extensions API](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-extensions-api.html). When you navigate to a function event trigger (HTTP, direct invocation, etc.) Desktop will add a [Lambda Layer](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) to your function to capture log output. Additionally, the following environment variables are added to your Lambda:
+- `AWS_LAMBDA_EXEC_WRAPPER` - The path to the Extension entrypoint
+- `SERVERLESS_PLATFORM_CONFIG` - Configuration for your Serverless user and org
+- `SERVERLESS_PLATFORM_DEV_MODE` - Toggles on/off log streaming
+
 
 <br />
 
