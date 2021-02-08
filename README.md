@@ -2,7 +2,9 @@
 
 Serverless Desktop is GUI client that provides you with tooling to easily test and invoke your deployed Serverless Framework applications.
 
-## [Download](https://github.com/serverless/desktop/releases/latest)
+### [Download Serverless Desktop](https://github.com/serverless/desktop/releases/latest)
+
+Serverless Desktop is currently in beta and we are seeking customer feedback. To help us build something you love, [please take 2 minutes to answer these 4 questions](https://xv4b63nuizx.typeform.com/to/RC5jemCU).
 
 <br />
 <br />
