@@ -1,6 +1,6 @@
 [![Serverless Desktop AWS Lambda](https://raw.githubusercontent.com/serverless/desktop/main/resources/readme-serverless-desktop.png)](https://github.com/serverless/desktop/releases/latest)
 
-Serverless Desktop is GUI client that provides you with tooling to easily test and invoke your deployed Serverless Framework applications.
+Serverless Desktop is GUI application that makes it easier to explore and test Serverless Framework applications built on AWS Lambda.
 
 ### [Download Serverless Desktop](https://github.com/serverless/desktop/releases/latest)
 
