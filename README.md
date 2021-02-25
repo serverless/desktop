@@ -52,6 +52,7 @@ Log streaming is enabled for NodeJS Lambda functions via the [AWS Lambda Extensi
 ## Supported platforms
 
 - MacOS
+- Windows
 
 <br />
 
