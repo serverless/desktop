@@ -69,7 +69,6 @@ Log streaming is enabled for NodeJS Lambda functions via the [AWS Lambda Extensi
 ## Limitations
 
 - AWS only
-- The AWS Role provisioned for Desktop is currently set to Administrative permissions. This will be scoped down in the future.
 - Log streaming is only supported for NodeJS runtimes
 
 <br />
